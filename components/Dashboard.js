@@ -209,12 +209,12 @@ export default function UBIDashboard() {
             <h1 className="py-4 px-4 font-bold text-xl">UBI Rounds</h1>
             <>
                 <div>
-                    In production, the dashboard would not have "Open Round" and "Close Round"
-                    buttons. Chainlink Automation would normally open and close rounds. This feature
-                    is omitted for testing convenience. See the Usage section in the README. You
-                    should be able to open and close a round at any time, unless someone else is
-                    using the dapp concurrently. You can only submit UBI when a round is open. You
-                    can withdraw UBI at any time once the round you voted in has closed.
+                    In production, the dashboard would not have Open Round and Close Round buttons.
+                    Chainlink Automation would normally open and close rounds. This feature is
+                    omitted for testing convenience. See the Usage section in the README. You should
+                    be able to open and close a round at any time, unless someone else is using the
+                    dapp concurrently. You can only submit UBI when a round is open. You can
+                    withdraw UBI at any time once the round you voted in has closed.
                 </div>
                 <br />
                 <button
@@ -271,7 +271,10 @@ export default function UBIDashboard() {
                 width="350px"
                 height="300px"
             />
-            <div>2016 Portland State "Who Votes for Mayor" Study: http://whovotesformayor.org/</div>
+            <div>
+                2016 Portland State &quot;Who Votes for Mayor&quot; Study:
+                http://whovotesformayor.org/
+            </div>
             <br />
             <div>Correct answer is all of them.</div>
             <br />
@@ -286,9 +289,9 @@ export default function UBIDashboard() {
             <h1 className="py-4 px-4 font-bold text-xl">UBI Information Submission Section</h1>
             <div>
                 Once DAO members / citizens have completed the Knowledge section, this section
-                appears. This is where the pulse of the DAO or city is taken. It's also where UBI
-                stats can be displayed. These stats are taken directly from the testnet blockchain
-                and should be updated whenever someone submits their DCW score:
+                appears. This is where the pulse of the DAO or city is taken. It&apos;s also where
+                UBI stats can be displayed. These stats are taken directly from the testnet
+                blockchain and should be updated whenever someone submits their DCW score:
                 <div>
                     <br />
                     <u>Current UBI Stats:</u>

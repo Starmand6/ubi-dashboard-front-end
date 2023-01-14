@@ -20,11 +20,19 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-moralis": "^1.4.2",
+    "uuid": "^9.0.0",
     "web3": "^1.8.1",
     "web3uikit": "^1.0.4"
   },
   "devDependencies": {
+    "@ethereumjs/block": "^4.1.0",
+    "@ethereumjs/common": "^3.0.2",
+    "@ethereumjs/tx": "^4.0.2",
+    "@ethereumjs/vm": "^6.3.0",
+    "@metamask/eth-sig-util": "^5.0.2",
+    "@next/eslint-plugin-next": "^13.1.2",
     "autoprefixer": "^10.4.13",
+    "mkdirp": "^1.0.4",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
     "tailwindcss": "^3.2.4"
